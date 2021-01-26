@@ -19,7 +19,7 @@ public class Character
         if (!enabled) {
             enabled = true;
         }
-        if (!add)
+        if (add)
             dialogueSystem.SayAdditive(speech, charaName);
         else
             dialogueSystem.Say(speech, charaName);
